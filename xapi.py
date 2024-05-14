@@ -30,7 +30,7 @@ def post_xapi(xapi_data, host, api_key, secret_key,
         r = None
         while (len(xapi_data) > 0):
             payload = xapi_data[:batch]
-            r = s.post(address, json=xapi_data)
+            r = s.post(address, json=payload)
             if r.status_code != 200:
                 return r.status_code
             xapi_data = xapi_data[batch:]
