@@ -1,0 +1,40 @@
+{
+    "timestamp": "2024-04-22T14:38:04.675Z",
+    "actor": {
+        "account": {
+            "homePage": "https://users.yetanalytics.com",
+            "name": "placeholder"
+        }
+    },
+    "verb": {
+        "id": "https://xapinet.org/xapi/yet/calibration/v1/concepts#did",
+        "display": {
+            "en": "did"
+        }
+    },
+    "object": {
+        "id": "https://xapinet.org/xapi/yet/calibration/v1/concepts#activity-1",
+        "definition": {
+            "name": {
+                "en-US": "Activity 1"
+            },
+            "description": {
+                "en-US": "The first Activity"
+            }
+        }
+    },
+    "context": {
+        "registration": "44027e27-a976-41cb-9c10-a139e9e71fd3",
+        "contextActivities": {
+            "category": [
+                {
+                    "id": "https://xapinet.org/xapi/yet/calibration/v1"
+                },
+                {
+                    "id": "https://xapinet.org/xapi/yet/calibration_example/draft-c24f52fe-b3f8-40b7-b6c8-7328e2c74345"
+                }
+            ]
+        }
+    }
+}
+
